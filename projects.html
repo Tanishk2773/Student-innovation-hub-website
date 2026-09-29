@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0d12">
+    <meta name="description" content="Explore student-led projects at the Student Innovation Hub.">
+    <title>Projects | Student Innovation Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="web.js" defer></script>
+  </head>
+  <body data-page="projects">
+    <header class="topbar">
+      <nav class="wrap nav" aria-label="Main navigation">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">&#10033;</span>
+          <span>STUDENT <b>INNOVATION HUB</b></span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="sr-only">Toggle menu</i>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html">Home</a>
+          <a class="active" href="projects.html">Projects</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+          <a href="contact.html" class="nav-cta">Join the hub <span>&#8599;</span></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero wrap">
+        <div class="eyebrow"><i></i> MADE BY STUDENTS, BUILT FOR TOMORROW
+        </div>
+        <h1>Small teams.<br><span>Big energy.</span>
+        </h1>
+        <p>Six ideas in progress, one shared belief: the future is something we get to make.
+        </p>
+        <div class="page-hero-meta"><span>01—06 / FEATURED WORK</span><span class="live-dot">● UPDATED THIS SEMESTER</span>
+        </div>
+      </section>
+      <section class="section wrap projects-page">
+        <div class="project-toolbar">
+          <div id="filters" class="filter-bar" aria-label="Filter projects by category" data-load-target>
+          </div><label class="search-box"><span>⌕</span><input id="project-search" type="search" placeholder="Find a project..." aria-label="Search projects"></label>
+        </div>
+        <div class="project-grid all-projects" id="project-grid" data-load-target>
+          <div class="loading">Loading student projects...
+          </div>
+        </div>
+      </section>
+      <section class="cta-panel wrap reveal">
+        <div>
+          <div class="eyebrow">HAVE AN IDEA OF YOUR OWN?
+          </div>
+          <h2>There's room for<br><span>one more.</span>
+          </h2>
+        </div><a class="button dark-button" href="contact.html">Pitch your project <span>↗</span></a>
+        <div class="cta-spark">✳
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">&#10033;</span>
+          <span>STUDENT INNOVATION HUB</span>
+        </a>
+        <span>Built with curiosity on campus.</span>
+        <a href="contact.html">Say hello ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>

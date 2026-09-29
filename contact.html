@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0d12">
+    <meta name="description" content="Get in touch with the Student Innovation Hub or bring your project idea.">
+    <title>Get Involved | Student Innovation Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="web.js" defer></script>
+  </head>
+  <body data-page="contact">
+    <header class="topbar">
+      <nav class="wrap nav" aria-label="Main navigation">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">&#10033;</span>
+          <span>STUDENT <b>INNOVATION HUB</b></span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="sr-only">Toggle menu</i>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="team.html">Team</a>
+          <a class="active" href="contact.html">Contact</a>
+          <a href="contact.html" class="nav-cta">Join the hub <span>&#8599;</span></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero wrap contact-page-hero">
+        <div class="eyebrow"><i></i> NEW IDEAS, NEW FRIENDS, SAME CAMPUS
+        </div>
+        <h1>Let's make<br><span>something real.</span>
+        </h1>
+        <p>Got an idea, looking for a team, or want to see the space? Drop us a note and let's start there.
+        </p>
+      </section>
+      <section class="section wrap contact-layout">
+        <div class="contact-side">
+          <div class="contact-orb"><span>YOUR<br>MOVE</span>
+          </div>
+          <div class="detail-list">
+            <div><span>THE PLACE</span><b>Student Innovation Hub<br>Campus makerspace</b>
+            </div>
+            <div><span>COME BY</span><b>Weekdays / 10:00 AM — 5:00 PM</b>
+            </div>
+            <div><span>WHAT'S NEXT</span><b>Your note stays in this browser.</b>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="eyebrow">SEND THE HUB A NOTE
+          </div>
+          <h2>Start a conversation.
+          </h2>
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" autocomplete="name" required maxlength="100" placeholder="What should we call you?">
+            </div>
+            <div class="field">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="you@university.edu">
+            </div>
+          </div>
+          <div class="field">
+            <label for="interest">I'm interested in</label>
+            <select id="interest" name="interest">
+              <option value="">Choose a starting point</option>
+              <option>Joining a project</option>
+              <option>Sharing a new idea</option>
+              <option>Mentoring a team</option>
+              <option>Visiting the hub</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Tell us a little more</label>
+            <textarea id="message" name="message" required maxlength="3000" placeholder="The rough idea is usually the best place to start..."></textarea>
+          </div>
+          <button class="button primary" type="submit">Send my note <span>&#8599;</span></button>
+          <p class="storage-note">This demo saves the message in this browser only.</p>
+          <p class="form-feedback" id="form-feedback" role="status" aria-live="polite">
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">&#10033;</span>
+          <span>STUDENT INNOVATION HUB</span>
+        </a>
+        <span>Built with curiosity on campus.</span>
+        <a href="projects.html">See what we're making ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>

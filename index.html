@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0a0d12">
+    <meta name="description" content="Discover the student teams building ideas into real-world impact at the Student Innovation Hub.">
+    <title>Student Innovation Hub | Make what matters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="web.js" defer></script>
+  </head>
+  <body data-page="home">
+    <header class="topbar">
+      <nav class="wrap nav" aria-label="Main navigation">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">&#10033;</span>
+          <span>STUDENT <b>INNOVATION HUB</b></span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+          <i class="sr-only">Toggle menu</i>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a class="active" href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="team.html">Team</a>
+          <a href="contact.html">Contact</a>
+          <a href="contact.html" class="nav-cta">Join the hub <span>&#8599;</span></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><i></i> CAMPUS IDEAS, REAL-WORLD IMPACT
+          </div>
+          <h1>Curiosity is<br>our <span>superpower.</span>
+          </h1>
+          <p>A community of student builders turning ambitious ideas into things that make life better. Come see what we're making.
+          </p>
+          <div class="hero-actions"><a class="button primary" href="projects.html">Explore the projects <span>↗</span></a><a class="text-link" href="team.html">Meet the people <span>→</span></a>
+          </div>
+          <div class="hero-stats">
+            <div><b id="project-count">06</b><span>Projects in motion</span>
+            </div>
+            <div><b>05</b><span>Focus areas</span>
+            </div>
+            <div><b>01</b><span>Campus community</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Abstract glowing innovation sculpture">
+          <div class="orbit orbit-one">
+          </div>
+          <div class="orbit orbit-two">
+          </div>
+          <div class="orbit orbit-three">
+          </div>
+          <div class="orb-core"><span>IDEA<br>IN MOTION</span>
+          </div>
+          <div class="visual-label label-top">HUB / 001 <span>● LIVE</span>
+          </div>
+          <div class="visual-label label-bottom">THINK IT. MAKE IT. SHARE IT.
+          </div>
+          <div class="float-chip chip-a">✳&nbsp; Open minds
+          </div>
+          <div class="float-chip chip-b">01 — 05
+          </div>
+        </div>
+      </section>
+      <section class="ticker" aria-label="Hub motto">
+        <div class="ticker-track">
+          <span>
+            MAKE SOMETHING MATTER <i>&#10033;</i> IDEAS LIVE HERE <i>&#10033;</i>
+            BUILD IT TOGETHER <i>&#10033;</i> MAKE SOMETHING MATTER <i>&#10033;</i>
+            IDEAS LIVE HERE <i>&#10033;</i> BUILD IT TOGETHER <i>&#10033;</i>
+          </span>
+          <span aria-hidden="true">
+            MAKE SOMETHING MATTER <i>&#10033;</i> IDEAS LIVE HERE <i>&#10033;</i>
+            BUILD IT TOGETHER <i>&#10033;</i> MAKE SOMETHING MATTER <i>&#10033;</i>
+            IDEAS LIVE HERE <i>&#10033;</i> BUILD IT TOGETHER <i>&#10033;</i>
+          </span>
+        </div>
+      </section>
+      <section class="section wrap" id="focus">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">01 / OUR PLAYGROUND
+            </div>
+            <h2>Big challenges.<br><span>Bright thinking.</span>
+            </h2>
+          </div>
+          <p>There is more than one way to change the world. Find the focus area that sparks something in you.
+          </p>
+        </div>
+        <div class="focus-grid" id="category-grid" data-load-target>
+        </div>
+      </section>
+      <section class="section projects-band">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <div>
+              <div class="eyebrow">02 / CURRENTLY CREATING
+              </div>
+              <h2>Ideas with <span>momentum.</span>
+              </h2>
+            </div><a class="text-link" href="projects.html">See all projects <span>↗</span></a>
+          </div>
+          <div class="project-grid featured-grid" id="featured-projects" data-load-target>
+            <div class="loading">Loading student projects...
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section wrap home-team">
+        <div class="section-head reveal">
+          <div>
+            <div class="eyebrow">03 / THE PEOPLE
+            </div>
+            <h2>Meet your <span>co-conspirators.</span>
+            </h2>
+          </div><a class="text-link" href="team.html">Get to know us <span>↗</span></a>
+        </div>
+        <div class="team-grid compact-team" id="featured-team" data-load-target>
+        </div>
+      </section>
+      <section class="cta-panel wrap reveal">
+        <div>
+          <div class="eyebrow">YOUR IDEA HAS A PLACE HERE
+          </div>
+          <h2>Got a spark?<br><span>Let's make a fire.</span>
+          </h2>
+        </div><a class="button dark-button" href="contact.html">Come build with us <span>↗</span></a>
+        <div class="cta-spark">✳
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">&#10033;</span>
+          <span>STUDENT INNOVATION HUB</span>
+        </a>
+        <span>Built with curiosity on campus.</span>
+        <a href="contact.html">Say hello ↗</a>
+      </div>
+    </footer>
+  </body>
+</html>
