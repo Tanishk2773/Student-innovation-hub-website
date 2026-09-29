@@ -1,10 +1,12 @@
 # Student Innovation Hub
 
-A dark, animated multi-page website built with plain HTML, CSS and JavaScript. It does not need Python, Flask, an install step or a running server.
+The Student Innovation Hub gives students a public place to share technical and creative projects that might otherwise stay hidden in labs or folders.
+
+This dark, animated multi-page website uses plain HTML, CSS and JavaScript. It does not need Python, Flask, an install step or a running server.
 
 ## Open the site
 
-Double-click `index.html` to open the home page in a modern browser. Use the navigation to open Projects, Team and Contact. Project cards open their own detail pages.
+Double-click `index.html` in a modern browser. Use the navigation to open Projects, Team and Contact. Project cards open their own detail pages.
 
 ## Files
 
