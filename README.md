@@ -5,7 +5,7 @@ The Student Innovation Hub gives students a public place to share technical and 
 This dark, animated multi-page website uses plain HTML, CSS and JavaScript. It does not need Python, Flask, an install step or a running server.
 
 ## Open the site
-
+<a href="file:///C:/Users/Tanish%20Khatokar/OneDrive/Desktop/college/student%20innovation%20website/index.html">click here</a>
 Double-click `index.html` in a modern browser. Use the navigation to open Projects, Team and Contact. Project cards open their own detail pages.
 
 ## Files
